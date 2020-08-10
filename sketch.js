@@ -24,11 +24,11 @@ function draw() {
     bullet.velocityX = 0;
     var deformation = 0.5 * weight * speed * speed/(thickness*thickness*thickness);
     if(deformation < 10){
-      bullet.shapeColor = color(0, 225, 0);
+      wall.shapeColor = color(0, 225, 0);
     }
     
     else{
-      bullet.shapeColor = color(225, 0, 0);
+      wall.shapeColor = color(225, 0, 0);
     }
 
   }
